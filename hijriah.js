@@ -66,7 +66,7 @@ var y = tod.getFullYear();
 var m = tod.getMonth();
 var d = tod.getDate();
 var dow = tod.getDay();
-document.write(weekday[dow] + " , " + d + " " + monthname[m] + " " + y);
+document.write(weekday[dow] + , + " " + d + " " + monthname[m] + " " + y);
 m++;
 fixd=gregToFixed(y, m, d);
 var h=new Hijri(1421, 11, 28);
